@@ -10,3 +10,5 @@ async def read_image(img_path, lang='eng'):
         return text
     except:
         return "[ERROR] Unable to process file: {0}".format(img_path)
+
+

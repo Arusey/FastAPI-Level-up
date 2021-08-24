@@ -10,4 +10,4 @@ with open('newcvs.csv', mode='r') as csv_file:
         row.append(row)
 
     print("total number of rows: %d"(csv_reader.line_num))
-
+    
